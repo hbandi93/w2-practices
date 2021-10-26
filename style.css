@@ -39,6 +39,20 @@ button, input, textarea, select {
     border-radius: 0;
 }
 
+section {
+    min-height: 100vh;
+}
+
+#menu-btn {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 40px;
+    height: 40px;
+    margin: 20px;
+    background-color: #000;
+}
+
 body {
     font-family: 'Overpass', sans-serif;
 }
