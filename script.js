@@ -10,3 +10,7 @@ function _load() {
 }
 
 window.addEventListener("load", _load);
+
+/* function toggleButton(event) {
+    document.getElementById("bodyID").classList.toggle("clicked");
+} */
