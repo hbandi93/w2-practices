@@ -65,6 +65,7 @@ body.clicked #menu-btn {
     height: 100vh;
     background-color: blue;
     z-index: 9;
+    transition: right 400ms;
 }
 
 body.clicked #nav {
@@ -91,4 +92,12 @@ header div.randomDiv2 {
     width: 40px;
     height: 40px;
     background-color: black;
+}
+
+nav#nav li:first-child {
+    background-color: green !important;
+}
+
+nav#nav li.aboutLi {
+    background-color: purple;
 }
